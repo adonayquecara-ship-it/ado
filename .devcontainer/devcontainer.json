@@ -1,0 +1,6 @@
+{
+  "name": "Kali Linux Workspace",
+  "image": "kalilinux/kali-rolling:latest",
+  "privileged": true,
+  "postCreateCommand": "apt-get update && apt-get install -y curl wget git docker.io"
+}
